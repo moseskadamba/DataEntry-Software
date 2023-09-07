@@ -46,7 +46,7 @@ def submit():
 	sheet.cell(column=5,row=sheet.max_row,value=address)
 	file.save(r'Backend_data.xlsx')
 
-	messagebox.showinfo('info','Details successfully added!')
+	messagebox.showinfo('info','Information successfully added!')
 	nameValue.set('')
 	contactValue.set('')
 	AgeValue.set('')
